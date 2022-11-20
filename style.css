@@ -1,0 +1,119 @@
+ body {
+   background: url(./imagens/fudo\ verde.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.gif {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;    
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+header { 
+        background: #c2ea0e;
+    
+}
+
+.titulo img {
+
+    z-index: 2;
+    width: 400px;
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    margin-top: -35px;
+}
+
+.gif img {
+    width: 300px;
+    position: relative;
+    top: 20px;
+
+}
+
+.quadro {
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.quadro img {
+   height: 70px;
+
+}
+
+.quadro li {
+    background: red;
+    
+}
+
+.quadro li {
+    display: inline-block;
+    vertical-align: top 20px;
+    margin: 10px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background: white;
+    width: 150px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.quadro p {
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .preco sup {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.preco span {
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: top;
+} 
+
+.quadro li:hover {
+    box-shadow: 0 0 50px white, 0 0 50px white
+    , 0 0 100px white;
+    background: white;
+    transform: scale(1.1);
+   
+}     
+
+ 
+
+
+
+
+
+
+
+
+
+
+
