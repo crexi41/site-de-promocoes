@@ -83,6 +83,19 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.quadro2 {
+    margin: 0 auto;
+    text-align: center;
+    /* width: 0;
+    padding: 400px; */
+}
+
+.quadro2 img {
+    margin-top: 20PX;
+    width: 400px;
+    border-radius: 20px;
+}
+
  .preco sup {
     font-size: 22px;
     font-weight: 700;
@@ -114,6 +127,7 @@ main {
 }
 
 button {
+    
     margin-left: auto;
     margin-right: auto;
     display: block;
