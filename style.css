@@ -6,7 +6,23 @@
    background-attachment: fixed;
 }
 
-.gif {
+main {
+    margin-top: -35px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo img {
+    z-index: 2;
+    width: 400px;
+}
+
+.divisor {
+    background: yellow;       
     text-align: center;
     display: flex;
     justify-content: center;
@@ -17,35 +33,34 @@
     font-size: 22px;
 }
 
-header { 
-        background: #c2ea0e;
-    
+.topo { 
+        background: blue;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;    
+        color: black;
+        font-weight: bold;
+        font-size: 32px;
 }
 
-.titulo img {
+.topo p {
+    font-weight: bold;
+    font-size: 32px;
 
-    z-index: 2;
-    width: 400px;
-    
+    color: white;
+    text
 }
 
-.titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-
-main {
-    margin-top: -35px;
-}
-
-.gif img {
+header img {
     width: 300px;
     position: relative;
     top: 20px;
 
-}
+} 
+
 
 .quadro {
     margin: 0 auto;
@@ -57,11 +72,11 @@ main {
    height: 70px;
 
 }
-
+/* 
 .quadro li {
     background: red;
     
-}
+} */
 
 .quadro li {
     display: inline-block;
