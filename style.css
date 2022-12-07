@@ -1,5 +1,11 @@
- body {
-   background: url(./imagens/fudo\ verde.jpg);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #033d1fea;
+   /* background: url(./imagens/fudo\ verde.jpg); */
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -10,14 +16,21 @@ main {
     margin-top: -35px;
 }
 
-.titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.t3 {
+    text-align: center;
 }
 
-.titulo img {
-    z-index: 2;
+.titulo {
+    margin-bottom: -40px;
+    width: 450px;   
+}
+
+.titulo2 {
+    
+}
+
+.titulo2 {
+    display: block;
     width: 400px;
 }
 
