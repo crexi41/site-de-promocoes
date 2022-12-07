@@ -4,8 +4,8 @@
 }
 
 body {
-    background: #033d1fea;
-   /* background: url(./imagens/fudo\ verde.jpg); */
+    /* background: #033d1fea; */
+   background: url(./imagens/fundo2.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -14,6 +14,15 @@ body {
 
 main {
     margin-top: -35px;
+}
+
+.baner {
+       text-align: center;
+}
+
+.baner img {
+    width: 100vw;
+    height: 20vh;
 }
 
 .t3 {
@@ -26,16 +35,15 @@ main {
 }
 
 .titulo2 {
+    margin-top: 10px;
+    position: absolute;
+    display: inline-block;
+    width: 150px;
     
 }
 
-.titulo2 {
-    display: block;
-    width: 400px;
-}
-
 .divisor {
-    background: yellow;       
+    background: rgba(12, 225, 83, 0.829);       
     text-align: center;
     display: flex;
     justify-content: center;
@@ -47,11 +55,11 @@ main {
     font-style: italic;
     font-weight: bold;
     font-size: 22px;
-    color: black;
+    color: white;
 }
 
 .topo { 
-        background: blue;
+        background: green;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -147,7 +155,7 @@ button {
     text-align: center;
     margin-top: 50px;
     padding: 5px 10px;
-    background-color: blue;
+    background-color: rgba(0, 128, 0, 0.81);
     border: none;
     border-radius: 10px;
 }
