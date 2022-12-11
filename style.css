@@ -4,8 +4,7 @@
 }
 
 body {
-    /* background: #033d1fea; */
-   background: url(./imagens/fundo2.jpg);
+   background: linear-gradient(#ffffff, #054511, #000000);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -155,7 +154,7 @@ button {
     text-align: center;
     margin-top: 50px;
     padding: 5px 10px;
-    background-color: rgba(0, 128, 0, 0.81);
+    /* background-color: rgba(0, 128, 0, 0.81); */
     border: none;
     border-radius: 10px;
 }
@@ -164,7 +163,7 @@ button a {
     text-decoration: none;
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 button:hover {
