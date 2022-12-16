@@ -4,6 +4,8 @@
 }
 
 body {
+   /* display: inline-block;
+   text-align: center; */
    background: linear-gradient(#ffffff, #054511, #000000);
    background-repeat: no-repeat;
    background-size: cover;
@@ -11,39 +13,49 @@ body {
    background-attachment: fixed;
 }
 
-main {
-    margin-top: -35px;
-}
-
-.baner {
-       text-align: center;
-}
-
-.baner img {
-    width: 100vw;
-    height: 20vh;
-}
-
-.t3 {
+.mestre section {
+    width: 940px;
+    margin: 0 auto;
     text-align: center;
+    
+} 
+
+.op {
+    width: 640px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 10px;
+    
+    
+}
+
+.op p {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.seta {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+
 }
 
 .titulo {
+    text-align: center;
     margin-bottom: -40px;
     width: 450px;   
 }
 
-.titulo2 {
-    margin-top: 10px;
-    position: absolute;
-    display: inline-block;
-    width: 150px;
-    
-}
-
 .divisor {
     background: rgba(12, 225, 83, 0.829);       
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,12 +71,10 @@ main {
 
 .topo { 
         background: green;
-        text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 50px;    
-        
 }
 
 .topo p {
@@ -73,16 +83,10 @@ main {
     color: white;
 }
 
-header img {
-    width: 300px;
-    position: relative;
-    top: 20px;
-} 
-
-.quadro {
+/* .quadro {
     margin: 0 auto;
     text-align: center;
-}
+} */
 
 .quadro img {
    height: 70px;
@@ -97,38 +101,39 @@ header img {
     background: white;
     width: 150px;
     border-radius: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
 }
 
 .quadro p {
     font-weight: bold;
-    border-radius: 10px;
     text-align: center;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* 
 .quadro2 {
     margin: 0 auto;
     text-align: center;
-}
+} */
 
-.quadro2 img {
+/* .quadro2 img {
     margin-top: 20PX;
     width: 400px;
     border-radius: 20px;
-}
+} */
 
  .preco sup {
     font-size: 22px;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .preco span {
     font-size: 15px;
     font-weight: 700;
     vertical-align: top;
+    
 } 
 
 .quadro li:hover {
@@ -147,7 +152,7 @@ header img {
 }
 
 button {
-    
+    width: 40%;    
     margin-left: auto;
     margin-right: auto;
     display: block;
